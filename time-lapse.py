@@ -41,8 +41,8 @@ with picamera.PiCamera() as camera:
     try:
        for i, filename in enumerate(
                camera.capture_continuous( os.path.join(f'{home_directory}/{directory_name}/', 'photo{timestamp}.jpg') )):
-           print("Photo captured:")
-           print(filename)
+           # print("Photo captured:")
+           # print(filename)
            time.sleep(WAIT_TIME)
     finally:
        camera.stop_preview()
