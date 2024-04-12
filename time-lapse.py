@@ -4,7 +4,7 @@ from datetime import datetime
 from time import sleep
 import picamera
 
-WAIT_TIME = 0.25
+WAIT_TIME = 1
 
 home_directory = os.path.expanduser("~")
 
