@@ -29,13 +29,13 @@ with picamera.PiCamera() as camera:
     camera.awb_mode = 'auto'
     
     # Increase sharpness (0 to 100)
-    camera.sharpness = 100
+    # camera.sharpness = 50
     
     # Increase contrast (-100 to 100)
-    camera.contrast = 50
+    # camera.contrast = 0
     
     # Increase saturation (-100 to 100)
-    camera.saturation = 50
+    # camera.saturation = 0
    
     camera.start_preview()
     try:
