@@ -20,7 +20,7 @@ if not os.path.exists(full_path):
 
 with picamera.PiCamera() as camera:
     # Set resolution to the maximum supported by the camera
-    camera.resolution = camera.MAX_RESOLUTION
+    # camera.resolution = camera.MAX_RESOLUTION
     
     # Set exposure mode (options: 'auto', 'night', 'nightpreview', 'backlight', etc.)
     camera.exposure_mode = 'auto'
